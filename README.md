@@ -3,7 +3,7 @@
 A Polling Application built with Python's Django
 
 
-# Install Dependecies
+## The App Preview
 ![pollster](https://github.com/tijjken/pollster/blob/master/static/Pollster1.png)
 ![pollster](https://github.com/tijjken/pollster/blob/master/static/Pollster2.png)
 ![pollster](https://github.com/tijjken/pollster/blob/master/static/Pollster3.png)
@@ -42,13 +42,12 @@ That was pretty simple, right? Now let's make the App live. We just need to star
 $ python manage.py runserver
 ```
 
-Start the development server and visit http://127.0.0.1:8000/admin/ to create a poll.
+### Start the development server and visit http://127.0.0.1:8000/admin/ to create a poll.
 
 
+### Once a poll is created, visit http://127.0.0.1:8000 to participate in the poll
 
-Once a poll is created, visit http://127.0.0.1:8000 to participate in the poll\
-
-Improvements to be made: \
+### Improvements to be made: 
 Mutiple voting capability \
 User Account \
 Voting History
