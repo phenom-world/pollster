@@ -42,13 +42,13 @@ That was pretty simple, right? Now let's make the App live. We just need to star
 $ python manage.py runserver
 ```
 
-#Start the development server and visit http://127.0.0.1:8000/admin/ to create a poll.
+Start the development server and visit http://127.0.0.1:8000/admin/ to create a poll.
 
 
 
-#Once a poll is created, visit http://127.0.0.1:8000 to participate in the poll
+Once a poll is created, visit http://127.0.0.1:8000 to participate in the poll\
 
-#Improvements to be made:
-#Mutiple voting capability
-#User Account
-#Voting History
+Improvements to be made: \
+Mutiple voting capability \
+User Account \
+Voting History
