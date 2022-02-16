@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'r+&wiw%6$a*k1xry7w_a!((8i^@+5tokw&oicu*9vufvpr(*i+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ["votevapp.herokuapp.com"]
+ALLOWED_HOSTS = ["votevapp.herokuapp.com", "127.0.0.1"]
 
 
 # Application definition
@@ -119,4 +119,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = [BASE_DIR / "static"]
+STATIC_ROOT = BASE_DIR / "staticfiles"
+
 
